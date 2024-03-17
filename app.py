@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 
 # Configuración
-TOKEN = 'MTIxODczMjkxMDIyODUzNzQ4Ng.GB0r9O.mDchTvhwcjuZvTSSFfgrZdIQfxs1RsziVXbtoM'
+TOKEN = 'token'
 VERIFICATION_ROLE_NAME = 'Verified'
 
 # Crear el bot
@@ -36,4 +36,4 @@ async def on_command_error(ctx, error):
         await ctx.send('Comando no encontrado.')
 
 # Iniciar el bot
-bot.run('MTIxODczMjkxMDIyODUzNzQ4Ng.GB0r9O.mDchTvhwcjuZvTSSFfgrZdIQfxs1RsziVXbtoM')
+bot.run('token')
